@@ -1,0 +1,14 @@
+{
+   "compilerOptions": {
+     "lib": ["es6", "dom"],
+     "target": "ES2017",           // Targeting ES2017 for modern JavaScript features
+     "module": "commonjs",         // Keeping CommonJS for module system
+     "moduleResolution": "node",
+     "outDir": "./build",
+     "emitDecoratorMetadata": true,  // Necessary for TypeORM decorators
+     "experimentalDecorators": true, // Necessary for TypeORM decorators
+     "sourceMap": true,
+     "esModuleInterop": true        // Ensure interop between CommonJS and ES modules
+   }
+ }
+ 
